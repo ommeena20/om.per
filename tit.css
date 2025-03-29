@@ -6,6 +6,9 @@ html,body{
     font-weight: 650;
      font-style: normal;
       font-size:12px;
+      scroll-behavior: smooth;
+      height: 100%;
+      width: 100%;
       
       
 }
@@ -13,7 +16,7 @@ html,body{
 .HEADER{
     display: flex;
     justify-content: space-between;
-    background-color:whitesmoke;
+    background-color: #EDF4F2;
     height:100px;
     
 }
@@ -66,11 +69,329 @@ html,body{
 
 
 .main{
-    height: 90vh;
-    background-color: bisque;
+    height: 100%;
+    background-color:#E1EBEE;
+    overflow: hidden;
+    object-fit:cover;
+    background-color:
     
 }
+
+
+.image img{
+    height: 600px;
+    width: 100vh;
+}
+/*main section */
 .REV{
     text-align: center;
+   
+    font-family: cursive;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
+}
+@keyframes color{
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+       
+    }
+}
+.cont p{
+    
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 20px;
+    line-height:1.3;
+    padding-left: 12px;
+    
+}
+
+.cont h1{
+    font-size: 29px;
+    background-color: black;
+    color:cornsilk;
+    box-shadow: 4px 4px 15px whitesmoke ;
+    display: inline-block;
+    padding-left: 18px;
+    margin-top: 50px;
+    border-radius: 15px;
+   
+}
+.cont p ,h1{
+    color:whitesmoke;
+    
+}
+.lop img{
+    padding-left: 12px;
+    height: 480px;
+    box-shadow: 4px 4px 10px white;
+}
+
+
+/*about section */
+#about{
+    padding-top: 30px;
+    height:80%;
+    justify-content: space-between;
+    background-image: url("https://media.istockphoto.com/id/165974199/vector/an-abstract-light-blue-and-white-wavy-background.jpg?s=2048x2048&w=is&k=20&c=AvFfpoM8GlkaJadq7bGH9h0lsMwoOiS7G_3lcb1pxdM=");
+
+}
+.us{
+    width: 500px;
+}
+.us h1{
+  color:whitesmoke;
+  background-color:rgb(37, 36, 36);
+   margin-left: 10px;
+  border-radius: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  display:inline-block;
+  
+}
+hr{
+    color:aqua;
+}
+.read{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid rgb(94, 94, 174);
+    background-color:rgb(94, 94, 174);
+    font-size: 20px;
+    
+    color: white;
+    font-weight: 500px;
+}
+
+.us p{
+    padding-left: 20px;
+    font-size: 19px;
+    font-family: cursive;
+}
+.about-img img{
+    margin-top: 20px;
+    height: 500px;
+    width: 650px;
+    margin-right: 40px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 10px rgb(56, 53, 53);
+    border: none;
+}
+
+/*whys us*/
+
+#whyus{
+    padding-top: 30px;
+     height: 60%;
+    object-fit: contain;
+    background-image: url("https://img.freepik.com/premium-photo/fluid-organic-white-color-abstract-background-unique-designs_851755-381525.jpg?semt=ais_hybrid");
+}
+#whyus h1{
+    text-align: center;
+   font-weight: bolder;
+    color:#66FF00;
+    font-size:xx-large;
+}
+#future{
+    font-size: 20px;
+    color: rgb(21, 20, 20);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cards{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card1{
+    height: 260px;
+    width: 250px;
+    border: 1px white solid;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(67, 66, 66)
+
+    
+
+}
+.card1 p{
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+#one img{
+    object-fit: cover;
+    height: 150px;
+    width: 250px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+#two img{
+    object-fit: cover;
+    height: 150px;
+    width: 250px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#three img{
+    object-fit: cover;
+    height: 150px;
+    width: 250px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+#four img{
+    object-fit: cover;
+    height: 150px;
+    width: 250px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+.container{
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+/* mentors section*/
+
+#mentors{
+    height: 140%;
+    background-color:whitesmoke;
+    
+    
+}
+#hands{
+    text-align: center;
+    color: greenyellow;
+    font-weight: 920;
+}
+.phot img{
+    height: 300px;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow: 4px 4px solid whitesmoke;
+}
+.ab{
+    margin-left: 20px;
+}
+.ab p{
+    border :2px solid #E1EBEE;
+     border-radius: 12px;
+     box-shadow: 4px 4px 10px grey;
+    font-size: 17px;
+    font-family: cursive;
+     color:rgb(32, 32, 32);
+     margin-bottom: 30px;
+}
+.phot img{
+    box-shadow: 4px 4px 10px grey;
+}
+.ab h2{
+    font-size: 22px;
+    color: balck;
+}
+.ab h1{
+   color:  rgb(51, 51, 51);
+}
+.ab a{
+    border: 2px solid rgb(79, 79, 180);
+
+    padding: 2px 2px;
+    background-color:rgb(79, 79, 180);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+    color:white;
+}
+.ab p:hover{
+color:rgb(48, 48, 48);
+}
+.Anand img{
+    height: 300px;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px grey;
+}
+.soni{
+    margin-left: 20px;
+}
+.soni h2{
+    font-size: 22px;
+    color:rgb(51, 51, 51);
+}
+.soni h1{
+    color:black;
+}
+.soni a{
+    border: 2px solid rgb(79, 79, 180);
+
+    padding: 2px 2px;
+    background-color:rgb(79, 79, 180);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+    color:white;
+}
+.soni p{
+    font-size: 17px;
+    font-family: cursive;
+    text-align: justify;
+    border :2px solid #E1EBEE;
+    border-radius: 12px;
+    color:rgb(32, 32, 32);
+    box-shadow: 4px 4px 10px grey;
+    margin-bottom: 30px;
+}
+.opp li{
+    font-size: 17px;
+}
+
+.ank img{
+    height: 300px;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px grey;
+}
+.patel h2{
+   font-size: 22px;
+   color:black;
+}
+.patel{
+    margin-left: 20px;
+}
+.patel h1{
+    color:rgb(54, 54, 54);
+}
+.patel a{
+    border: 2px solid rgb(79, 79, 180);
+
+    padding: 2px 2px;
+    background-color:rgb(79, 79, 180);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+    color:white;
+}
+.patel p{
+    font-size: 17px;
+    font-family: cursive;
+    text-align: justify;
+     border :2px solid #E1EBEE;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px black;
+    color:rgb(32, 32, 32);
+    margin-bottom: 30px;
 }
