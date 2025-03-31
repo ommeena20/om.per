@@ -10,4 +10,10 @@ btn.addEventListener("click",function(){
 btn.addEventListener("dblclick",function(){
     let para=document.querySelector(".new");
     para.innerText="";
-})
+});
+let alrt=document.querySelector(".alert");
+let cont=document.querySelector(".contactus");
+alrt.addEventListener("click",function(){
+   let kwak=alert("successfully submitted");
+   cont.append(kwak);
+});
